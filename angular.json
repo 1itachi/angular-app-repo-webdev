@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wbdv-sp20-deepak-client-angular"
+    }
+  },
+  "defaultProject": "wbdv-sp20-deepak-client-angular",
+  "cli": {
+    "analytics": "2e1f9722-705c-4eab-b15a-d266840dc48e"
+  }
 }
