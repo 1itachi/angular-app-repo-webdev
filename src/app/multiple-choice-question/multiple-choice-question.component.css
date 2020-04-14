@@ -1,0 +1,11 @@
+.correct-ans {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+.wrong-ans {
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+

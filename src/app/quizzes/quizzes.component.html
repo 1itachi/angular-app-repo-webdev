@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="text-center">Quizzes</h1>
+
+  <ul class="list-group">
+    <li class="list-group-item"
+        *ngFor="let quiz of quizzes">
+      <a routerLink="/courses/{{courseId}}/quizzes/{{quiz._id}}">
+        {{quiz.title}}
+      </a>
+
+      <button
+        routerLink="/courses/{{courseId}}/quizzes/{{quiz._id}}"
+        class="btn btn-primary float-right">
+        Start
+      </button>
+    </li>
+  </ul>
+
+</div>

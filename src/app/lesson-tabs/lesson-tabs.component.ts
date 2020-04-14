@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {CourseServiceClient} from '../services/CourseServiceClient';
+import {LessonServiceClient} from '../services/LessonServiceClient';
 
 @Component({
   selector: 'app-lesson-tabs',
@@ -9,7 +9,7 @@ import {CourseServiceClient} from '../services/CourseServiceClient';
 })
 export class LessonTabsComponent implements OnInit {
 
-  constructor(private service: CourseServiceClient, private route: ActivatedRoute) { }
+  constructor(private service: LessonServiceClient, private route: ActivatedRoute) { }
   lessons = [];
   moduleId = '';
   courseId = '';
